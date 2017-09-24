@@ -1,0 +1,39 @@
+<div id="registrations" class="clearfix appcont registrations">
+	<div class="appcont__left">
+		<div class="search">
+			<input id="search__text" class="search__text" tabindex="1" maxlength="20" placeholder="{{i18n.main.search_block}}" />
+			<i class="fa fa-search search__icon"></i>
+
+			<div class="search__result"></div>
+		</div>
+
+		<div class="buffer">
+			<div class="boxbtn">
+				<div class="boxbtn__item config btn fa fa-cog"></div>
+				<div class="boxbtn__item up btn fa fa-chevron-up"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="appcont__right">
+		<div class="appcont__content">
+			<div class="table">
+				<div class="table__head">
+					<div title="Click for change all" class="table__th table__th-check">
+						<input id="all_checked" class="input-check" type="checkbox" />
+					</div>
+					<div title="Click for sorting" data-sort="type" class="table__th table__th-type">{{i18n.main.header.type}}</div>
+					<div title="Click for sorting" data-sort="name" class="table__th">{{i18n.main.header.name}}</div>
+					<div title="Click for sorting" data-sort="username" class="table__th">{{i18n.main.header.username}}</div>
+					<div title="Click for sorting" data-sort="last_registration" class="table__th">{{i18n.main.header.last_reg}}</div>
+					<div title="Click for sorting" data-sort="initial_registration" class="table__th">{{i18n.main.header.date}}</div>
+					<div class="table__th table__th-details">{{i18n.main.header.details}}</div>
+				</div>
+
+				<div class="table__body"></div>
+			</div>
+
+			<div class="paginate"></div>
+		</div>
+	</div>
+</div>

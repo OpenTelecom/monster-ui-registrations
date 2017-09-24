@@ -1,0 +1,7 @@
+<div class="paginate__left fa fa-angle-double-left"></div>
+{{#each this}}
+	{{#if page}}
+		<div class="paginate__item{{#if current}} paginate__item-current{{/if}}" data-page="{{page}}">{{page}}</div>
+	{{/if}}
+{{/each}}
+<div class="paginate__right fa fa-angle-double-right"></div>

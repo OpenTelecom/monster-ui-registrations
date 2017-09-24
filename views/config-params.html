@@ -1,0 +1,13 @@
+<div class="boxconfig">
+	{{#if this.animation}}
+		<label class="boxconfig__label" for="boxconfig__animation">{{animation.label}}:
+			<input type="checkbox" id="boxconfig__animation" class="boxconfig__item" {{animation.animation_checked}} />
+		</label>
+	{{/if}}
+	{{#if this.pagination}}
+		<label class="boxconfig__label" for="boxconfig__pagination">{{pagination.label}}:
+			<input type="number" placeholder="{{pagination.label}}" id="boxconfig__pagination" class="boxconfig__item boxconfig__item-text" value="{{pagination.default_count}}" />
+		</label>
+	{{/if}}
+	<div class="btn btn-success boxconfig__save">{{i18n.main.save_config}}</div>
+</div>

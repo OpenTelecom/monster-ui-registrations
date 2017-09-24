@@ -1,0 +1,27 @@
+{
+	"main": {
+		"search_block": "Chercher",
+		"btndetails": "Détails",
+		"show_all": "Montrer Tous",
+		"save_config": "Сonserver",
+		"title_config": "Options",
+		"header": {
+			"username": "Usager",
+			"ip": "IP",
+			"port": "Port",
+			"date": "First reg",
+			"details": "Détails",
+			"name": "Dispositif",
+			"type": "Type",
+			"last_reg": "Last reg"
+		},
+		"restart": {
+			"btn": "Redémarrez les périphériques sélectionnés",
+			"message_ok": "Dispositif sélectionné a été redémarrage"
+		},
+		"config_params": {
+			"animation": "Animation",
+			"pagination": "Compter sur la page"
+		}
+	}
+}

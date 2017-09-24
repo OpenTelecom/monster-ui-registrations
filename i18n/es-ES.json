@@ -1,0 +1,27 @@
+{
+	"main": {
+		"search_block": "Search",
+		"btndetails": "Details",
+		"show_all": "Show All",
+		"save_config": "Save",
+		"title_config": "Options",
+		"header": {
+			"username": "Username",
+			"ip": "IP",
+			"port": "Port",
+			"date": "First reg",
+			"details": "Details",
+			"name": "Device",
+			"type": "Type",
+			"last_reg": "Last reg"
+		},
+		"restart": {
+			"btn": "Restart selected devices",
+			"message_ok": "Selected devices has been restarting"
+		},
+		"config_params": {
+			"animation": "Animation",
+			"pagination": "Count on the page"
+		}
+	}
+}

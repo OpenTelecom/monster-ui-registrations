@@ -1,0 +1,6 @@
+<div class="showall">{{i18n.main.show_all}}</div>
+{{#each this}}
+	{{#if date}}
+		<div class="search__item" data-callid="{{call_id}}">{{date}}<div class="search__user">{{username}}</div></div>
+	{{/if}}
+{{/each}}

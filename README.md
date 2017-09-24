@@ -1,1 +1,2 @@
-# monster-ui-registrations
+Registrations application for Monster-UI
+

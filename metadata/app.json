@@ -1,0 +1,38 @@
+{
+	"name": "registrations",
+	"i18n": {
+		"ru-RU": {
+			"label": "Registrations",
+			"description": "Приложение, позволяющее следить за регистрациями."
+		},
+		"en-US": {
+			"label": "Registrations",
+			"description": "Registrations allows you to monitor the registration logs."
+		},
+		"en-EN": {
+			"label": "Registrations",
+			"description": "Registrations allows you to monitor the registration logs."
+		}
+	},
+	"tags": [
+		"developer"
+	],
+	"icon": "registrations.png",
+	"api_url": "",
+	"author": "SIPLABS LLC",
+	"version": "1.0",
+	"license": "-",
+	"price": 0,
+	"screenshots": [
+		"registrations1.png",
+		"registrations2.png",
+		"registrations3.png",
+		"registrations4.png",
+		"registrations5.png"
+	],
+	"urls": {
+		"documentation": "{documentation_url}",
+		"howto": "{howto_video_url}"
+	},
+	"pvt_type": "app"
+}

@@ -1,0 +1,41 @@
+{{#each this}}
+	{{#if from_user}}
+		<div class="table__tr {{#if enabled}}table__tr-enabled{{/if}}" data-id="{{id}}" data-callid="{{call_id}}">
+			<div class="table__td table__td-check">
+				<input class="input-check" type="checkbox" />
+			</div>
+
+			<div class="table__td table__td-type" title="Type: {{type}}" data-type="{{type}}"></div>
+
+			<div class="table__td table__td-name" title="{{name}} is {{#if enabled}}enabled{{else}}disabled{{/if}}">
+				{{#if name}}{{name}}{{else}}Device not found{{/if}}
+			</div>
+
+			<div class="table__td table__td-username">
+				{{username}}
+			</div>
+
+			<div class="table__td table__td-last_reg">
+				{{datetime_last_registration}}
+			</div>
+
+			<div class="table__td table__td-date">
+				{{datetime}}
+			</div>
+
+			<div class="table__td table__td-details">
+				<span class="btn btn-details btn-info"></span>
+
+				<pre class="details">
+					{{#each this}}
+						<span class="details__item">{{@key}}:&#09;{{#if this}}{{this}}{{else}}false{{/if}}</span><br/>
+					{{/each}}
+				</pre>
+			</div>
+		</div>
+	{{/if}}
+{{/each}}
+<div class="table__tr table__tr-restart">
+	<div class="restart-message">{{i18n.main.restart.message_ok}}</div>
+	<span class="btn btn-restart btn-info">{{i18n.main.restart.btn}}</span>
+</div>
